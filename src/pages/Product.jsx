@@ -24,6 +24,7 @@ import BreadCrums from '../BreadCrums/BreadCrums';
 import ProductDisplay from '../ProductDisplay/ProductDisplay';
 import { ShopContext } from "../Context/ShopContext"
 import DescriptionBox from '../DescriptionBox/DescriptionBox';
+import RelatedProducts from '../RelatedProducts/RelatedProducts';
 
 function Product() {
   const { all_product } = useContext(ShopContext);
@@ -39,6 +40,7 @@ function Product() {
       <BreadCrums product={product} />
       <ProductDisplay product={product} />
       <DescriptionBox/>
+      <RelatedProducts/>
     </div>
   );
 }
