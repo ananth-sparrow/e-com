@@ -9,7 +9,7 @@ function Hero() {
         <div className='hero-left'>
             <h2>New Arrivals Only</h2>
             <div>
-                <div className='hand-hand-icon'>
+                <div className='hero-hand-icon'>
                     <p>new</p>
                     <img src={hand_icon} alt="" />
                 </div>
@@ -17,7 +17,7 @@ function Hero() {
                 <p> for everyone</p>
             </div>
             <div className='hero-latest-btn'>
-                <div> Latest Collections</div>
+                <div className='lc'> Latest Collections</div>
                 <img src={arrow_icon} alt="" />
             </div>
         </div>

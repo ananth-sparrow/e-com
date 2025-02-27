@@ -60,3 +60,31 @@
     height: 3px;
     background: #c7c7c7;
 }
+
+
+@media (max-width: 800px) {
+    .Footer {
+      gap: 20px;
+    }
+    .Footer-logo {
+      gap: 10px;
+      align-items: end;
+    }
+    .Footer-logo img {
+      width: 40px;
+    }
+    .Footer-logo p {
+      font-size: 25px;
+    }
+    .Footer_links {
+      font-size: 14px;
+      gap: 10px;
+    }
+    .Footer-social-icon img {
+      width: 22px;
+    }
+    .footer-copyright {
+      font-size: 13px;
+    }
+  }
+  
