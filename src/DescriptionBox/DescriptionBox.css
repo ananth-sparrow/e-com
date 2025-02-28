@@ -16,10 +16,12 @@
     height: 70px;
     border: 1px solid #d0d0d0;
 }
+
 .DescriptionBox-nav-box.fade{
     background: #fbfbfb;
     color: #555;
 }
+
 .Descriptionbox-description{
     display: flex;
     flex-direction: column;
@@ -27,4 +29,19 @@
     border: 1px solid #d0d0d0;
     padding: 48px;
     padding-bottom: 70px;
+}
+
+@media(max-width:1280px){
+    .DescriptionBox{
+        margin: 60px;
+    }
+}
+
+@media(max-width:800px){
+    .DescriptionBox{
+        margin: 60px 20px;
+    }
+    .Descriptionbox-description{
+        font-size: 14px;
+    }
 }
