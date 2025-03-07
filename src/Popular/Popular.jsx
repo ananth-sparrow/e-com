@@ -7,7 +7,7 @@ import Item from '../Item/Item'
 function Popular() {
   return (
     <div className='Popular'>
-        <h1>Popular In Women </h1>
+        <h1>Women's Top Picks</h1>
         <hr/>
         <div className='popular-item'>
             {data_product .map((item,i)=>{

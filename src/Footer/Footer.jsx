@@ -9,7 +9,7 @@ function Footer() {
     <div className='Footer'>
         <div className="Footer-logo">
             <img src={footer_logo} alt=''/>
-            <p>SHOPPER</p>
+            <p>STYLE HAVEN</p>
         </div>
         <ul className='Footer_links'>
             <li>Company</li>

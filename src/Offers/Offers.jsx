@@ -6,10 +6,11 @@ function Offers() {
   return (
     <div className='Offers'>
         <div className="Offers-left">
-            <h1>Exclusive</h1>
-            <h1>Offers for you</h1>
-            <p>Only On Best Sellers Products</p>
-            <button>Check Now</button>
+  
+            <h1>Elegant Styles</h1>
+            <h1>Just for You</h1>
+            <p>Discover the Latest Trends & Exclusive Deals</p>
+            <button>Shop Now</button>
         </div>
         <div className="Offers-right">
             <img src={exclusive_image} alt="" />

@@ -10,9 +10,9 @@ const Shop = () => {
   return (
     <div>
       <Hero/>
-      <Popular/>
-      <Offers/>
       <NewCollection/>
+      <Offers/>
+      <Popular/>
       <NewsLetter/>
      
     </div>
